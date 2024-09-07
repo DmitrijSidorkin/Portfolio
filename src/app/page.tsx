@@ -1,7 +1,10 @@
+import { MenuGrid } from "@/components/MenuGrid/MenuGrid";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between p-24"></main>
+    <main className="flex flex-col items-center justify-between p-24">
+      <MenuGrid />
+    </main>
   );
 }

@@ -1,0 +1,15 @@
+.menu-grid {
+  display: table;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+.menu-grid td {
+  width: 100px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.menu-grid tr {
+  height: 100px;
+}
