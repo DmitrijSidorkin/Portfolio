@@ -4,7 +4,7 @@ import Image from "next/image";
 export const MeCard = () => {
   return (
     <MenuCard>
-      <div className="flex flex-row lg:flex-col gap-2 px-6 py-4 w-full h-full">
+      <div className="flex flex-row lg:flex-col gap-2 px-6 py-4 w-full h-fit">
         <div className="flex-shrink-0">
           <Image
             src="/pfp.jpg"

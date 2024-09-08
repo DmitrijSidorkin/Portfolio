@@ -1,59 +1,11 @@
-import { HashtagCard } from "./HashtagCard/HashtagCard";
 import { IntroCard } from "./IntroCard/IntroCard";
 import { ToolCard } from "./ToolCard/ToolCard";
-
-const toolsData = [
-  {
-    image: "/github.svg",
-    name: "github",
-    description:
-      "sono rob, e questa e una super raccolta di ottimi strumenti e siti web per qualsiasi tipo di business",
-  },
-  {
-    image: "/github.svg",
-    name: "github",
-    description:
-      "sono rob, e questa e una super raccolta di ottimi strumenti e siti web per qualsiasi tipo di business",
-  },
-  {
-    image: "/github.svg",
-    name: "github",
-    description:
-      "sono rob, e questa e una super raccolta di ottimi strumenti e siti web per qualsiasi tipo di business",
-  },
-  {
-    image: "/github.svg",
-    name: "github",
-    description:
-      "sono rob, e questa e una super raccolta di ottimi strumenti e siti web per qualsiasi tipo di business",
-  },
-  {
-    image: "/github.svg",
-    name: "github",
-    description:
-      "sono rob, e questa e una super raccolta di ottimi strumenti e siti web per qualsiasi tipo di business",
-  },
-  {
-    image: "/github.svg",
-    name: "github",
-    description:
-      "sono rob, e questa e una super raccolta di ottimi strumenti e siti web per qualsiasi tipo di business",
-  },
-  {
-    image: "/github.svg",
-    name: "github",
-    description:
-      "sono rob, e questa e una super raccolta di ottimi strumenti e siti web per qualsiasi tipo di business",
-  },
-];
+import { toolsData } from "./ToolCard/ToolsData";
 
 export const ToolsContent = () => {
   return (
-    <div>
-      <div>
-        <HashtagCard />
-        <IntroCard />
-      </div>
+    <div className="flex flex-col max-w-screen-lg gap-5 p-4">
+      <IntroCard />
       <div className="flex flex-row flex-wrap w-full justify-center gap-8">
         {toolsData.map((data, index) => {
           return (

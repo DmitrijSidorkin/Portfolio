@@ -13,18 +13,18 @@ export const ToolCard: React.FC<ToolCardProps> = ({
   description,
 }) => {
   return (
-    <div className="w-72 h-72">
+    <div className="w-56 h-56">
       <MenuCard>
-        <div className="flex flex-col h-full p-3">
+        <div className="flex flex-col h-full px-3 py-5">
           <Image
             src={image}
-            width={100}
-            height={100}
+            width={80}
+            height={80}
             alt={`${name}`}
-            className="rounded-full pb-5"
+            className="pb-5 max-w-20 max-h-20"
           />
-          <h2 className="text-3xl pb-4">{name}</h2>
-          <p className="line-clamp-3 text-xl">{description}</p>
+          <h2 className="text-xl pl-2 font-bold pb-4">{name}</h2>
+          <p className="line-clamp-3 text-sm text-justify">{description}</p>
         </div>
       </MenuCard>
     </div>

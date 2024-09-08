@@ -8,7 +8,7 @@ export const GithubCard = () => {
       <Link
         target="_blank"
         href="https://github.com/DmitrijSidorkin"
-        className="h-full w-full flex items-center justify-center bg-black rounded-3xl"
+        className="h-full w-full flex items-center justify-center bg-black rounded-xl hover:bg-white hover:bg-opacity-15"
       >
         <div className="flex-shrink-0">
           <Image

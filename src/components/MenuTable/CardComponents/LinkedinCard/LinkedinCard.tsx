@@ -9,7 +9,7 @@ export const LinkedinCard = () => {
       <Link
         target="_blank"
         href="https://www.linkedin.com/in/dmitrij-sidorkin-677936277/"
-        className="h-full w-full flex items-center justify-center bg-black rounded-3xl"
+        className="h-full w-full flex items-center justify-center bg-black rounded-xl hover:bg-white hover:bg-opacity-15"
       >
         <div className="flex-shrink-0">
           <Image
