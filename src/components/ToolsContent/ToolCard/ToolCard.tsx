@@ -24,7 +24,7 @@ export const ToolCard: React.FC<ToolCardProps> = ({
             className="pb-5 max-w-20 max-h-20"
           />
           <h2 className="text-xl pl-2 font-bold pb-4">{name}</h2>
-          <p className="line-clamp-3 text-sm text-justify">{description}</p>
+          <p className="line-clamp-3 text-sm">{description}</p>
         </div>
       </MenuCard>
     </div>

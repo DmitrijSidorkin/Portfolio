@@ -1,8 +1,5 @@
-import { MenuCard } from "@/components/MenuCard/MenuCard";
 import { TableRow } from "../TableRow/TableRow";
 import { TableDiv } from "../TableDiv/TableDiv";
-import Image from "next/image";
-import Link from "next/link";
 import { MeCard } from "../CardComponents/MeCard/MeCard";
 import { ExperienceCard } from "../CardComponents/ExperienceCard/ExperienceCard";
 import { StatusCard } from "../CardComponents/StatusCard/StatusCard";

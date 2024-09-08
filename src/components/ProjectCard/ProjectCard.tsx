@@ -32,7 +32,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           />
           <div className="p-8">
             <h2 className="text-5xl lg:pb-10 text-center pb-6">{title}</h2>
-            <p className="text-xl text-justify">{description}</p>
+            <p className="text-xl">{description}</p>
           </div>
         </div>
       </MenuCard>

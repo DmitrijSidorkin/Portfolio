@@ -1,5 +1,3 @@
-import { MenuCard } from "@/components/MenuCard/MenuCard";
-import classNames from "classnames";
 import { TableRow } from "../TableRow/TableRow";
 import { TableDiv } from "../TableDiv/TableDiv";
 import { MeCard } from "../CardComponents/MeCard/MeCard";

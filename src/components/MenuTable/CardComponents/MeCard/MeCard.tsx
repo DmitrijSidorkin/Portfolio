@@ -14,7 +14,7 @@ export const MeCard = () => {
             className="rounded-full"
           />
         </div>
-        <p className="text-justify text-xl grow">
+        <p className="text-xl grow">
           My name is Dmitrij Sidorkin, and I am a self-taught aspiring front-end
           developer, and have solid foundations in HTML, CSS, Javascript, React
           and Typescript, with beginnings in React Native. I am a tech

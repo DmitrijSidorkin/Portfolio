@@ -11,7 +11,6 @@ export const NavBar = () => {
     { name: "Tools", route: "/tools" },
   ];
   const pathname = usePathname();
-  console.log(pathname);
   const linkClass =
     "hover:bg-sky-800 px-5 py-1 rounded-full select-none text-gray-200 align-middle leading-none text-xl";
 
