@@ -13,7 +13,7 @@ export const TableDiv: React.FC<TableDivProps> = ({
     <td
       colSpan={colSpan}
       rowSpan={rowSpan}
-      className="box-border h-full md:w-56 lg:w-64 sm:w-48"
+      className="box-border h-full lg:w-96 md:w-48"
     >
       {children}
     </td>

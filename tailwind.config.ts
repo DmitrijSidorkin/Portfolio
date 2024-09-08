@@ -12,6 +12,12 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "image-dark": "url('/background-dark.jpg')",
+        "image-light": "url('/background-light.jpg')",
+      },
+      backgroundSize: {
+        "auto-100": "auto 100vh",
+        "100-auto": "100vh auto",
       },
     },
   },

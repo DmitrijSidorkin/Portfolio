@@ -1,38 +1,41 @@
-import classNames from "classnames";
 import { MenuCard } from "@/components/MenuCard/MenuCard";
 import { TableRow } from "../TableRow/TableRow";
 import { TableDiv } from "../TableDiv/TableDiv";
+import Image from "next/image";
+import Link from "next/link";
+import { MeCard } from "../CardComponents/MeCard/MeCard";
+import { ExperienceCard } from "../CardComponents/ExperienceCard/ExperienceCard";
+import { StatusCard } from "../CardComponents/StatusCard/StatusCard";
+import { GithubCard } from "../CardComponents/GithubCard/GithubCard";
+import { LinkedinCard } from "../CardComponents/LinkedinCard/LinkedinCard";
+import { ContactsCard } from "../CardComponents/ContactsCard/ContactsCard";
 
 export const TableBig = () => {
   return (
-    <table className="border-separate table-fixed hidden md:table border-spacing-5">
+    <table className="border-separate table-fixed hidden lg:table border-spacing-5 ">
       <tbody className="w-full">
         <TableRow>
           <TableDiv colSpan={2}>
-            <MenuCard>
-              <p>Me</p>
-            </MenuCard>
+            <MeCard />
           </TableDiv>
           <TableDiv rowSpan={2}>
-            <MenuCard>
-              <p>expreience</p>
-            </MenuCard>
+            <ExperienceCard />
           </TableDiv>
         </TableRow>
         <TableRow>
           <TableDiv>
-            <MenuCard>toggler</MenuCard>
+            <StatusCard />
           </TableDiv>
         </TableRow>
         <TableRow>
           <TableDiv>
-            <MenuCard>github</MenuCard>
+            <GithubCard />
           </TableDiv>
           <TableDiv>
-            <MenuCard>linkedin</MenuCard>
+            <LinkedinCard />
           </TableDiv>
           <TableDiv>
-            <MenuCard>contacts</MenuCard>
+            <ContactsCard />
           </TableDiv>
         </TableRow>
       </tbody>
