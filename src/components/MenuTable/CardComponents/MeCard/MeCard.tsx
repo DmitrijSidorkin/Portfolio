@@ -15,11 +15,11 @@ export const MeCard = () => {
           />
         </div>
         <p className="text-justify text-xl grow">
-          My name is Dmitrij Sidorkin, and I am a tech enthusiast with a passion
-          for computers and a wide array of skills in both computer hardware and
-          software. I am a self-taught aspiring front-end developer, and have
-          solid foundations in HTML, CSS, Javascript and React, with beginnings
-          in React Native.
+          My name is Dmitrij Sidorkin, and I am a self-taught aspiring front-end
+          developer, and have solid foundations in HTML, CSS, Javascript, React
+          and Typescript, with beginnings in React Native. I am a tech
+          enthusiast with a passion for computers and a wide array of skills in
+          both computer hardware and software.
         </p>
       </div>
     </MenuCard>

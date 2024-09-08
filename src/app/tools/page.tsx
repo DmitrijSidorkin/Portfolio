@@ -1,3 +1,5 @@
+import { ToolsContent } from "@/components/ToolsContent/ToolsContent";
+
 export default function Tools() {
-  return <p>tools</p>;
+  return <ToolsContent />;
 }
