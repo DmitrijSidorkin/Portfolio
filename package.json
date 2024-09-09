@@ -13,12 +13,14 @@
     "classnames": "^2.5.1",
     "next": "14.2.7",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-imgix": "^9.8.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-imgix": "^9.5.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.7",
     "postcss": "^8",

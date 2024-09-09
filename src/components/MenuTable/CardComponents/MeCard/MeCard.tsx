@@ -1,16 +1,17 @@
 import { MenuCard } from "@/components/MenuCard/MenuCard";
-import Image from "next/image";
+import Imgix from "react-imgix";
 
 export const MeCard = () => {
   return (
     <MenuCard>
       <div className="flex flex-row lg:flex-col gap-2 px-6 py-4 w-full h-fit">
         <div className="flex-shrink-0">
-          <Image
+          <Imgix
             src="/pfp.jpg"
-            alt="profile"
-            width={150}
-            height={150}
+            htmlAttributes={{
+              width: 150,
+              height: 150,
+            }}
             className="rounded-full"
           />
         </div>
