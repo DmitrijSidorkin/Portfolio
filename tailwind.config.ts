@@ -12,7 +12,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "image-dark": "url('/background-dark.jpg')",
+        "image-dark":
+          "url('https://res.cloudinary.com/dyguovdbc/image/upload/v1725902421/background-dark_q0tbjo.jpg')",
         "image-light": "url('/background-light.jpg')",
       },
       backgroundSize: {
