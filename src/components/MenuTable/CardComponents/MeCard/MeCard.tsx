@@ -7,7 +7,7 @@ export const MeCard = () => {
       <div className="flex flex-row lg:flex-col gap-2 px-6 py-4 w-full h-fit">
         <div className="flex-shrink-0">
           <Imgix
-            src="/pfp.jpg"
+            src="https://res.cloudinary.com/dyguovdbc/image/upload/v1725902425/pfp_ocfh5u.jpg"
             htmlAttributes={{
               width: 150,
               height: 150,
