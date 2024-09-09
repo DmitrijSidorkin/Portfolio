@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
+import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 
 const nextConfig = {
   output: "export",
