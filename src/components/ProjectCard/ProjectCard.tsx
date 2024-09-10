@@ -19,16 +19,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
     <Link
       href={gitlink}
       target="_blank"
-      className="block m-3w-full h-full overflow-hidden"
+      className="block h-full overflow-hidden"
     >
       <MenuCard>
-        <div className="flex lg:flex-row flex-col items-center hover:bg-white hover:bg-opacity-15">
-          <Image
-            src={image}
-            width={480}
-            height={270}
-            alt={`${title} preview`}
-            className="rounded-xl h-full lg:pl-1 pl-0"
+        <div className="flex lg:max-h-80 lg:flex-row flex-col items-center rounded-xl hover:bg-white hover:bg-opacity-15">
+          <img
+            src="/pixelify-preview.jpg"
+            alt="pixelify preview"
+            className="max-h-80 rounded-xl pl-0"
           />
           <div className="p-8">
             <h2 className="text-5xl lg:pb-10 text-center pb-6">{title}</h2>

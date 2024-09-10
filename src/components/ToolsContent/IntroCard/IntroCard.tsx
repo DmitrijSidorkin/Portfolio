@@ -6,12 +6,10 @@ export const IntroCard = () => {
     <div className="w-fit">
       <MenuCard>
         <div className="flex flex-col items-center md:flex-row md:justify-normal gap-2 px-6 py-4 w-full h-full">
-          <Image
+          <img
             src="/pfp.jpg"
             alt="profile"
-            width={150}
-            height={150}
-            className="rounded-full"
+            className="w-36 h-36 rounded-full"
           />
           <p className="md:pl-5 text-xl grow">
             My name is Dmitrij Sidorkin, and I am a self-taught aspiring

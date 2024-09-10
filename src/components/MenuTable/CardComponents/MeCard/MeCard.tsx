@@ -5,13 +5,7 @@ export const MeCard = () => {
   return (
     <div className="flex flex-col sm:flex-row lg:flex-col gap-2 px-6 py-4 w-full h-fit">
       <div className="flex-shrink-0 self-center xl:self-start">
-        <Image
-          src="/pfp.jpg"
-          alt="profile"
-          width={150}
-          height={150}
-          className="rounded-full"
-        />
+        <img src="/pfp.jpg" alt="profile" className="w-36 h-36 rounded-full" />
       </div>
       <p className="text-xl grow">
         My name is Dmitrij Sidorkin, and I am a self-taught aspiring front-end
