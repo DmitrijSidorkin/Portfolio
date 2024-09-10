@@ -12,11 +12,9 @@ export const IntroCard = () => {
             className="w-36 h-36 rounded-full"
           />
           <p className="md:pl-5 text-xl grow">
-            My name is Dmitrij Sidorkin, and I am a self-taught aspiring
-            front-end developer, and have solid foundations in HTML, CSS,
-            Javascript, React and Typescript, with beginnings in React Native. I
-            am a tech enthusiast with a passion for computers and a wide array
-            of skills in both computer hardware and software.
+            Here I list a number of tools that have been relevant to my work as
+            a developer, as well as some other, perhaps less relevant, but still
+            potentially useful tools that I am proficient in.
           </p>
         </div>
       </MenuCard>
