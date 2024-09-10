@@ -1,9 +1,5 @@
 import { MenuCard } from "@/components/MenuCard/MenuCard";
 
 export const StatusCard = () => {
-  return (
-    <MenuCard>
-      <p className="text-3xl">Open To Work</p>
-    </MenuCard>
-  );
+  return <p className="text-3xl text-center">Open To Work</p>;
 };

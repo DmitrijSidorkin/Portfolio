@@ -7,7 +7,7 @@ export const IntroCard = () => {
       <MenuCard>
         <div className="flex flex-col items-center md:flex-row md:justify-normal gap-2 px-6 py-4 w-full h-full">
           <Image
-            src="https://res.cloudinary.com/dyguovdbc/image/upload/v1725902425/pfp_ocfh5u.jpg"
+            src="/pfp.jpg"
             alt="profile"
             width={150}
             height={150}

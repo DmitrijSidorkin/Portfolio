@@ -3,5 +3,5 @@ type TableRowProps = {
 };
 
 export const TableRow: React.FC<TableRowProps> = ({ children }) => {
-  return <tr className="lg:h-96 h-48 ">{children}</tr>;
+  return <tr className="h-48 lg:h-76 xl:h-96 table-row">{children}</tr>;
 };

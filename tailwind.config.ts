@@ -12,14 +12,17 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "image-dark":
-          "url('https://res.cloudinary.com/dyguovdbc/image/upload/v1725902421/background-dark_q0tbjo.jpg')",
+        "image-dark": "url('/background-dark.jpg')",
         "image-light": "url('/background-light.jpg')",
       },
       backgroundSize: {
         "auto-100": "auto 100vh",
         "100-auto": "100vh auto",
       },
+      minWidth: {
+        "76": "19rem",
+      },
+      height: { "76": "19rem" },
     },
   },
   plugins: [require("@tailwindcss/line-clamp")],

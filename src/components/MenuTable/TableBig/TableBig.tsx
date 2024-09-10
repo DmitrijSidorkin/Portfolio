@@ -9,7 +9,7 @@ import { ContactsCard } from "../CardComponents/ContactsCard/ContactsCard";
 
 export const TableBig = () => {
   return (
-    <table className="border-separate table-fixed hidden lg:table border-spacing-5 ">
+    <table className="border-separate table-fixed hidden lg:table border-spacing-5">
       <tbody className="w-full">
         <TableRow>
           <TableDiv colSpan={2}>

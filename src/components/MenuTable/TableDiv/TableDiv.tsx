@@ -13,9 +13,11 @@ export const TableDiv: React.FC<TableDivProps> = ({
     <td
       colSpan={colSpan}
       rowSpan={rowSpan}
-      className="box-border h-full lg:w-96 md:w-48"
+      className="box-border rounded-xl text-lg table-cell items-center justify-center shadow-md bg-black shadow-sky-800 border border-sky-600 xl:w-96 md:min-w-76"
     >
-      {children}
+      <div className="h-full flex items-center justify-center xl:min-w-96 md:min-w-76">
+        {children}
+      </div>
     </td>
   );
 };

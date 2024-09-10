@@ -21,7 +21,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="min-h-screen flex flex-col justify-between bg-image-dark bg-cover bg-no-repeat">
+      <body className="min-h-screen flex flex-col justify-between bg-image-dark bg-cover bg-no-repeat md:overflow-x-hidden">
         <NavBar />
         {children}
         <Footer />

@@ -7,17 +7,17 @@ import { StatusCard } from "../CardComponents/StatusCard/StatusCard";
 import { GithubCard } from "../CardComponents/GithubCard/GithubCard";
 import { LinkedinCard } from "../CardComponents/LinkedinCard/LinkedinCard";
 
-export const TableSmall = () => {
+export const TableMedium = () => {
   return (
-    <table className="border-separate table md:hidden w-full min-w-96 table-fixed border-spacing-5">
+    <table className="border-separate hidden md:table lg:hidden w-full min-w-96 table-fixed border-spacing-5">
       <tbody className="w-full">
         <TableRow>
-          <TableDiv>
+          <TableDiv colSpan={2}>
             <MeCard />
           </TableDiv>
         </TableRow>
         <TableRow>
-          <TableDiv>
+          <TableDiv colSpan={2}>
             <ExperienceCard />
           </TableDiv>
         </TableRow>
@@ -25,8 +25,6 @@ export const TableSmall = () => {
           <TableDiv>
             <StatusCard />
           </TableDiv>
-        </TableRow>
-        <TableRow>
           <TableDiv>
             <ContactsCard />
           </TableDiv>
@@ -35,8 +33,6 @@ export const TableSmall = () => {
           <TableDiv>
             <GithubCard />
           </TableDiv>
-        </TableRow>
-        <TableRow>
           <TableDiv>
             <LinkedinCard />
           </TableDiv>
