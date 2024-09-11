@@ -65,6 +65,12 @@ export const toolsData = [
       "Enables developers to build fast, SEO-friendly, and highly interactive web applications.",
   },
   {
+    image: "wordpress.svg",
+    name: "Wordpress",
+    description:
+      "Open-source CMS that allows users to create and manage websites easily without coding",
+  },
+  {
     image: "/github.svg",
     name: "Github",
     description:
