@@ -6,18 +6,18 @@ interface ProjectCardProps {
   image: string;
   title: string;
   description: string;
-  gitlink: string;
+  projectlink: string;
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({
   image,
   title,
   description,
-  gitlink,
+  projectlink,
 }) => {
   return (
     <Link
-      href={gitlink}
+      href={projectlink}
       target="_blank"
       className="block h-full overflow-hidden"
     >
