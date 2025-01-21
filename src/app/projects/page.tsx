@@ -11,8 +11,7 @@ const projectsData = [
   {
     title: "Lunch App (Sourcery Academy Team Project)",
     image: "/lunch-app-preview.jpg",
-    projectlink:
-      "https://github.com/DmitrijSidorkin/Lunch-App-Sourcery-Academy-",
+    projectlink: "https://8aeb31d6.lunch-app-sourcery-academy.pages.dev",
     description:
       "A private company lunch app that allows its workers to order food straight to the workplace, with free lunches every Friday! This is purely a front-end mock version of such app.",
   },
